@@ -467,7 +467,194 @@ def divider():
     write("divider.svg", svg)
 
 
+# =====================================================================
+# 5) Header banner: aurora gradient, drifting waves, role and stack
+# =====================================================================
+
+
+def wave_path(y, amp, seed=0):
+    """A seamless wave across 2000px (two periods of 1000px) so a -1000px loop has no jump."""
+    pts = []
+    for i in range(0, 9):
+        x = i * 250
+        dy = amp if (i + seed) % 2 else -amp
+        pts.append((x, y + dy))
+    d = f"M0 {pts[0][1]}"
+    for i in range(1, len(pts)):
+        x0, y0 = pts[i - 1]
+        x1, y1 = pts[i]
+        d += f" C {x0 + 125} {y0}, {x1 - 125} {y1}, {x1} {y1}"
+    return d + " L 2000 400 L 0 400 Z"
+
+
+def header():
+    W, H = 1000, 250
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
+<title id="t">Backend Engineer</title>
+<desc id="d">Banner: Backend Engineer working with Node.js, Express, MongoDB and PostgreSQL, based in Gaza, Palestine.</desc>
+<defs>
+  <linearGradient id="hd-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E1B4B"/>
+    <stop offset="0.5" stop-color="#5B21B6"/>
+    <stop offset="1" stop-color="#0E7490"/>
+  </linearGradient>
+  <radialGradient id="hd-a1" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="{VIOLET_L}" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="{VIOLET_L}" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="hd-a2" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="{CYAN}" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="{CYAN}" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="hd-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.10"/>
+  </pattern>
+  <clipPath id="hd-clip"><rect width="{W}" height="{H}" rx="18"/></clipPath>
+</defs>
+<style>
+  text {{ font-family: {SANS}; }}
+  .mono {{ font-family: {MONO}; }}
+  .a1 {{ animation: drift1 14s ease-in-out infinite alternate; }}
+  .a2 {{ animation: drift2 18s ease-in-out infinite alternate; }}
+  .w1 {{ animation: wave 16s linear infinite; }}
+  .w2 {{ animation: wave 24s linear infinite reverse; }}
+  .up {{ opacity: 0; animation: up 0.8s ease-out both; }}
+  .ping {{ animation: ping 1.8s ease-out infinite; transform-origin: 862px 41px; }}
+  @keyframes drift1 {{ from {{ transform: translate(0, 0); }} to {{ transform: translate(180px, 30px); }} }}
+  @keyframes drift2 {{ from {{ transform: translate(0, 0); }} to {{ transform: translate(-200px, -20px); }} }}
+  @keyframes wave {{ from {{ transform: translateX(0); }} to {{ transform: translateX(-1000px); }} }}
+  @keyframes up {{ from {{ opacity: 0; transform: translateY(10px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+  @keyframes ping {{ 0% {{ transform: scale(1); opacity: 0.8; }} 100% {{ transform: scale(2.6); opacity: 0; }} }}
+  {REDUCED}
+  @media (prefers-reduced-motion: reduce) {{ .up {{ opacity: 1; }} .ping {{ opacity: 0; }} }}
+</style>
+<g clip-path="url(#hd-clip)">
+  <rect width="{W}" height="{H}" fill="url(#hd-bg)"/>
+  <rect width="{W}" height="{H}" fill="url(#hd-dots)"/>
+  <circle class="a1" cx="160" cy="40" r="260" fill="url(#hd-a1)"/>
+  <circle class="a2" cx="860" cy="220" r="280" fill="url(#hd-a2)"/>
+  <path class="w1" d="{wave_path(205, 14)}" fill="#FFFFFF" fill-opacity="0.07"/>
+  <path class="w2" d="{wave_path(222, 10, 1)}" fill="#FFFFFF" fill-opacity="0.06"/>
+</g>
+<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="17.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"/>
+<g>
+  <rect x="842" y="27" width="128" height="28" rx="14" fill="#0D1117" fill-opacity="0.45" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <circle class="ping" cx="862" cy="41" r="4.5" fill="{GREEN}"/>
+  <circle cx="862" cy="41" r="4.5" fill="{GREEN}"/>
+  <text x="874" y="45.5" class="mono" font-size="12.5" fill="#E6EDF3">api: online</text>
+</g>
+<text class="up mono" x="56" y="78" font-size="15" fill="{CYAN_L}" style="animation-delay:0.1s">$ whoami</text>
+<text class="up" x="54" y="140" font-size="60" font-weight="800" fill="#FFFFFF" letter-spacing="-1" style="animation-delay:0.25s">Backend Engineer</text>
+<text class="up mono" x="57" y="182" font-size="19" fill="#E9D5FF" style="animation-delay:0.45s">Node.js · Express · MongoDB · PostgreSQL</text>
+<text class="up mono" x="57" y="214" font-size="14" fill="#FFFFFF" fill-opacity="0.75" style="animation-delay:0.6s">Gaza, Palestine</text>
+</svg>
+"""
+    write("header.svg", svg)
+
+
+def footer():
+    W, H = 1000, 110
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" preserveAspectRatio="none" role="img" aria-label="decorative footer wave">
+<defs>
+  <linearGradient id="ft-bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#0E7490"/>
+    <stop offset="0.5" stop-color="#5B21B6"/>
+    <stop offset="1" stop-color="#1E1B4B"/>
+  </linearGradient>
+  <clipPath id="ft-clip"><rect width="{W}" height="{H}"/></clipPath>
+</defs>
+<style>
+  .w1 {{ animation: wave 18s linear infinite; }}
+  .w2 {{ animation: wave 26s linear infinite reverse; }}
+  @keyframes wave {{ from {{ transform: translateX(0); }} to {{ transform: translateX(-1000px); }} }}
+  {REDUCED}
+</style>
+<g clip-path="url(#ft-clip)">
+  <path class="w2" d="{wave_path(40, 12, 1)}" fill="url(#ft-bg)" fill-opacity="0.35"/>
+  <path class="w1" d="{wave_path(55, 14)}" fill="url(#ft-bg)"/>
+</g>
+</svg>
+"""
+    write("footer.svg", svg)
+
+
+# =====================================================================
+# 6) Typing line: SMIL discrete steps, exact per character via textLength
+# =====================================================================
+def typing():
+    lines = [
+        "I design secure, multi-tenant REST APIs",
+        "Sole backend engineer on Sawn, a claims SaaS",
+        "Clean layers · RBAC · state machines · tests",
+    ]
+    W, H, fs = 760, 48, 21
+    cw = 12.6  # forced advance per character (textLength), so steps land on glyph edges
+    type_dt, erase_dt, hold, gap = 0.065, 0.025, 1.8, 0.35
+    slots, t = [], 0.0
+    for ln in lines:
+        n = len(ln)
+        dur = n * type_dt + hold + n * erase_dt + gap
+        slots.append((t, n))
+        t += dur
+    C = t
+    color = VIOLET
+
+    def kt(x):
+        return f"{min(x / C, 1):.5f}"
+
+    groups = []
+    for i, ((s, n), ln) in enumerate(zip(slots, lines)):
+        w = n * cw
+        left = W / 2 - w / 2
+        times, vals = [0.0], [0.0]
+        for k in range(1, n + 1):
+            times.append(s + k * type_dt)
+            vals.append(k * cw)
+        te = s + n * type_dt + hold
+        for k in range(1, n + 1):
+            times.append(te + k * erase_dt)
+            vals.append((n - k) * cw)
+        if times[1] <= 0:  # first line starts at t=0: drop the duplicate 0 key
+            times[1] = 0.0001
+        key_times = ";".join(kt(x) for x in times)
+        widths = ";".join(f"{v:.1f}" for v in vals)
+        cursor_x = ";".join(f"{left + v:.1f}" for v in vals)
+        # cursor only visible during this line's slot
+        vis_t = ";".join(kt(x) for x in (0, max(s, 0.0001) if i else 0, te + n * erase_dt))
+        vis_v = "0;1;0" if i else "1;1;0"
+        if i == 0:
+            vis_t = f"0;{kt(te + n * erase_dt)}"
+            vis_v = "1;0"
+        groups.append(f"""
+  <clipPath id="ty-c{i}"><rect x="{left:.1f}" y="0" width="0" height="{H}">
+    <animate attributeName="width" dur="{C:.2f}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{key_times}" values="{widths}"/>
+  </rect></clipPath>
+  <text x="{W / 2}" y="{H / 2 + 7}" text-anchor="middle" textLength="{w:.1f}" lengthAdjust="spacingAndGlyphs" clip-path="url(#ty-c{i})">{escape(ln)}</text>
+  <rect class="cur" x="{left:.1f}" y="{H / 2 - 12}" width="2.5" height="24" fill="{color}" opacity="0">
+    <animate attributeName="x" dur="{C:.2f}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{key_times}" values="{cursor_x}"/>
+    <animate attributeName="opacity" dur="{C:.2f}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{vis_t}" values="{vis_v}"/>
+  </rect>""")
+
+    first = lines[0]
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
+<title id="t">{escape(" / ".join(lines))}</title>
+<style>
+  text {{ font-family: {MONO}; font-size: {fs}px; font-weight: 600; fill: {color}; }}
+  .static {{ display: none; }}
+  @media (prefers-reduced-motion: reduce) {{ .anim {{ display: none; }} .static {{ display: inline; }} }}
+</style>
+<g class="anim">{"".join(groups)}
+</g>
+<g class="static"><text x="{W / 2}" y="{H / 2 + 7}" text-anchor="middle">{escape(first)}</text></g>
+</svg>
+"""
+    write("typing.svg", svg)
+
+
 terminal()
 pipeline()
 fsm()
 divider()
+header()
+footer()
+typing()

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="t d">
+<title id="t">Backend Engineer</title>
+<desc id="d">Banner: Backend Engineer working with Node.js, Express, MongoDB and PostgreSQL, based in Gaza, Palestine.</desc>
+<defs>
+  <linearGradient id="hd-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E1B4B"/>
+    <stop offset="0.5" stop-color="#5B21B6"/>
+    <stop offset="1" stop-color="#0E7490"/>
+  </linearGradient>
+  <radialGradient id="hd-a1" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#A78BFA" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="hd-a2" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="hd-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.10"/>
+  </pattern>
+  <clipPath id="hd-clip"><rect width="1000" height="250" rx="18"/></clipPath>
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace; }
+  .a1 { animation: drift1 14s ease-in-out infinite alternate; }
+  .a2 { animation: drift2 18s ease-in-out infinite alternate; }
+  .w1 { animation: wave 16s linear infinite; }
+  .w2 { animation: wave 24s linear infinite reverse; }
+  .up { opacity: 0; animation: up 0.8s ease-out both; }
+  .ping { animation: ping 1.8s ease-out infinite; transform-origin: 862px 41px; }
+  @keyframes drift1 { from { transform: translate(0, 0); } to { transform: translate(180px, 30px); } }
+  @keyframes drift2 { from { transform: translate(0, 0); } to { transform: translate(-200px, -20px); } }
+  @keyframes wave { from { transform: translateX(0); } to { transform: translateX(-1000px); } }
+  @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes ping { 0% { transform: scale(1); opacity: 0.8; } 100% { transform: scale(2.6); opacity: 0; } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+  @media (prefers-reduced-motion: reduce) { .up { opacity: 1; } .ping { opacity: 0; } }
+</style>
+<g clip-path="url(#hd-clip)">
+  <rect width="1000" height="250" fill="url(#hd-bg)"/>
+  <rect width="1000" height="250" fill="url(#hd-dots)"/>
+  <circle class="a1" cx="160" cy="40" r="260" fill="url(#hd-a1)"/>
+  <circle class="a2" cx="860" cy="220" r="280" fill="url(#hd-a2)"/>
+  <path class="w1" d="M0 191 C 125 191, 125 219, 250 219 C 375 219, 375 191, 500 191 C 625 191, 625 219, 750 219 C 875 219, 875 191, 1000 191 C 1125 191, 1125 219, 1250 219 C 1375 219, 1375 191, 1500 191 C 1625 191, 1625 219, 1750 219 C 1875 219, 1875 191, 2000 191 L 2000 400 L 0 400 Z" fill="#FFFFFF" fill-opacity="0.07"/>
+  <path class="w2" d="M0 232 C 125 232, 125 212, 250 212 C 375 212, 375 232, 500 232 C 625 232, 625 212, 750 212 C 875 212, 875 232, 1000 232 C 1125 232, 1125 212, 1250 212 C 1375 212, 1375 232, 1500 232 C 1625 232, 1625 212, 1750 212 C 1875 212, 1875 232, 2000 232 L 2000 400 L 0 400 Z" fill="#FFFFFF" fill-opacity="0.06"/>
+</g>
+<rect x="0.75" y="0.75" width="998.5" height="248.5" rx="17.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"/>
+<g>
+  <rect x="842" y="27" width="128" height="28" rx="14" fill="#0D1117" fill-opacity="0.45" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <circle class="ping" cx="862" cy="41" r="4.5" fill="#3FB950"/>
+  <circle cx="862" cy="41" r="4.5" fill="#3FB950"/>
+  <text x="874" y="45.5" class="mono" font-size="12.5" fill="#E6EDF3">api: online</text>
+</g>
+<text class="up mono" x="56" y="78" font-size="15" fill="#67E8F9" style="animation-delay:0.1s">$ whoami</text>
+<text class="up" x="54" y="140" font-size="60" font-weight="800" fill="#FFFFFF" letter-spacing="-1" style="animation-delay:0.25s">Backend Engineer</text>
+<text class="up mono" x="57" y="182" font-size="19" fill="#E9D5FF" style="animation-delay:0.45s">Node.js · Express · MongoDB · PostgreSQL</text>
+<text class="up mono" x="57" y="214" font-size="14" fill="#FFFFFF" fill-opacity="0.75" style="animation-delay:0.6s">Gaza, Palestine</text>
+</svg>

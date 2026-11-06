@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" preserveAspectRatio="none" role="img" aria-label="decorative footer wave">
+<defs>
+  <linearGradient id="ft-bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#0E7490"/>
+    <stop offset="0.5" stop-color="#5B21B6"/>
+    <stop offset="1" stop-color="#1E1B4B"/>
+  </linearGradient>
+  <clipPath id="ft-clip"><rect width="1000" height="110"/></clipPath>
+</defs>
+<style>
+  .w1 { animation: wave 18s linear infinite; }
+  .w2 { animation: wave 26s linear infinite reverse; }
+  @keyframes wave { from { transform: translateX(0); } to { transform: translateX(-1000px); } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+</style>
+<g clip-path="url(#ft-clip)">
+  <path class="w2" d="M0 52 C 125 52, 125 28, 250 28 C 375 28, 375 52, 500 52 C 625 52, 625 28, 750 28 C 875 28, 875 52, 1000 52 C 1125 52, 1125 28, 1250 28 C 1375 28, 1375 52, 1500 52 C 1625 52, 1625 28, 1750 28 C 1875 28, 1875 52, 2000 52 L 2000 400 L 0 400 Z" fill="url(#ft-bg)" fill-opacity="0.35"/>
+  <path class="w1" d="M0 41 C 125 41, 125 69, 250 69 C 375 69, 375 41, 500 41 C 625 41, 625 69, 750 69 C 875 69, 875 41, 1000 41 C 1125 41, 1125 69, 1250 69 C 1375 69, 1375 41, 1500 41 C 1625 41, 1625 69, 1750 69 C 1875 69, 1875 41, 2000 41 L 2000 400 L 0 400 Z" fill="url(#ft-bg)"/>
+</g>
+</svg>

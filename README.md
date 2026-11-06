@@ -1,26 +1,24 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:22D3EE&height=230&section=header&text=Mohammed%20Ferwana&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20Engineer%20%C2%B7%20Node.js%20%C2%B7%20Express%20%C2%B7%20MongoDB%20%C2%B7%20PostgreSQL&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Mohammed Ferwana, Backend Engineer" />
+<img src="assets/header.svg" width="100%" alt="Banner: Backend Engineer, Node.js, Express, MongoDB, PostgreSQL, Gaza, Palestine" />
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=720&height=48&lines=Backend+Engineer+from+Gaza%2C+Palestine;I+design+secure%2C+multi-tenant+REST+APIs;Sole+backend+engineer+on+Sawn%2C+a+claims+SaaS;Clean+layers+%C2%B7+RBAC+%C2%B7+state+machines+%C2%B7+tests" alt="Backend Engineer from Gaza, Palestine. I design secure, multi-tenant REST APIs." />
-</a>
+# Mohammed Ferwana
 
-<br/>
+<img src="assets/typing.svg" alt="I design secure, multi-tenant REST APIs. Sole backend engineer on Sawn, a claims SaaS. Clean layers, RBAC, state machines, tests." />
 
-<a href="https://www.linkedin.com/in/mohammed-ferwana/"><img src="https://img.shields.io/badge/LinkedIn-mohammed--ferwana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
-<a href="mailto:mohammedferwana2@gmail.com"><img src="https://img.shields.io/badge/Email-mohammedferwana2%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/mohammed-ferwana/"><img src="https://img.shields.io/badge/LinkedIn-mohammed--ferwana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn profile" /></a>
+<a href="mailto:mohammedferwana2@gmail.com"><img src="https://img.shields.io/badge/Email-mohammedferwana2%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email mohammedferwana2@gmail.com" /></a>
 <a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Sawn-Live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Sawn live dashboard" /></a>
-<img src="https://img.shields.io/badge/Based%20in-Gaza%2C%20Palestine-3FB950?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Based in Gaza, Palestine" />
-<img src="https://komarev.com/ghpvc/?username=hammoudFerwana&label=Profile%20views&color=8b5cf6&style=for-the-badge" alt="Profile views" />
+
+**Sole backend engineer on Sawn** · 387 automated tests · 10-state claim lifecycle · API live on Render
 
 </div>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
 <!-- ===================== ABOUT ===================== -->
-## 👋 About me
+## About me
 
 <div align="center">
   <img src="assets/terminal.svg" width="100%" alt="Terminal calling GET /api/v1/me and printing Mohammed's profile as JSON" />
@@ -32,23 +30,44 @@ I build the server side of products: APIs, data models, authentication and the b
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
-<!-- ===================== EXPERIENCE ===================== -->
-## 🧭 Experience and programs
+<!-- ===================== FEATURED ===================== -->
+## Featured work: Sawn
 
-| Where | Role | Highlights |
-| :--- | :--- | :--- |
-| **Sawn** (formerly InsurFlow) | Backend Engineer | Owns the full backend of a B2B claims SaaS. 4th place at Startup MVP Bootcamp. |
-| **TAQAT** · TeamLine | Backend Developer and Team Lead | 2026 |
-| **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
-| **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
-| **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
-| **Areisto Software** | Intern | Khireej Qader Program |
-| **IEEEXtreme 20.0** | Competitor | 24-hour global programming contest, October 2026 |
+**Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
+
+<div align="center">
+  <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
+</div>
+
+- Multi-tenant REST API on **Node.js, Express 5, MongoDB and Mongoose**, with Joi validation and JWT auth for three roles: Admin, Claims Officer and Field Adjuster.
+- **10-state claim lifecycle** with role-guarded transitions and a full audit timeline for every status change.
+- **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
+- Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
+- Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
+- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
+
+<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
+<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== HOW I BUILD ===================== -->
+## How I build APIs
+
+<div align="center">
+  <img src="assets/request-pipeline.svg" width="100%" alt="A request moves through router, Joi validation, JWT and RBAC auth, controller, service and repository layers to MongoDB, and a JSON envelope returns" />
+</div>
+
+- **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
+- **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
+- **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
+- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
+- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
 <!-- ===================== STACK ===================== -->
-## 🛠️ Tech stack
+## Tech stack
 
 <table>
   <tr>
@@ -90,62 +109,50 @@ I build the server side of products: APIs, data models, authentication and the b
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
-<!-- ===================== HOW I BUILD ===================== -->
-## ⚙️ How I build APIs
+<!-- ===================== REPOSITORIES ===================== -->
+## Public repositories
 
 <div align="center">
-  <img src="assets/request-pipeline.svg" width="100%" alt="A request moves through router, Joi validation, JWT and RBAC auth, controller, service and repository layers to MongoDB, and a JSON envelope returns" />
+  <a href="https://github.com/hammoudFerwana/project-management-backend"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-project-management-backend.svg" width="49%" alt="project-management-backend repository" /></a>
+  <a href="https://github.com/hammoudFerwana/tour-booking-application"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-tour-booking-application.svg" width="49%" alt="tour-booking-application repository" /></a>
+  <a href="https://github.com/hammoudFerwana/subscription-tracker"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-subscription-tracker.svg" width="49%" alt="subscription-tracker repository" /></a>
+  <a href="https://github.com/hammoudFerwana/mohammed-ferwana-portfolio"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-mohammed-ferwana-portfolio.svg" width="49%" alt="mohammed-ferwana-portfolio repository" /></a>
 </div>
 
-- **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
-- **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
-- **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
-- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
-- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
+<!-- ===================== EXPERIENCE ===================== -->
+## Experience and more work
 
-<img src="assets/divider.svg" width="100%" height="8" alt="" />
+<details>
+<summary><b>Experience and programs</b>: Sawn · TAQAT · SAIOS Academy · GSG · Masar Tech · Areisto Software · IEEEXtreme</summary>
+<br/>
 
-<!-- ===================== FEATURED ===================== -->
-## 🚀 Featured work
+| Where | Role | Highlights |
+| :--- | :--- | :--- |
+| **Sawn** (formerly InsurFlow) | Backend Engineer | Owns the full backend of a B2B claims SaaS. 4th place at Startup MVP Bootcamp. |
+| **TAQAT** · TeamLine | Backend Developer and Team Lead | 2026 |
+| **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
+| **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
+| **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
+| **Areisto Software** | Intern | Khireej Qader Program |
+| **IEEEXtreme 20.0** | Competitor | 24-hour global programming contest, October 2026 |
 
-### Sawn · motor insurance claims SaaS
+</details>
 
-B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
-
-<div align="center">
-  <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
-</div>
-
-- Multi-tenant REST API on **Node.js, Express 5, MongoDB and Mongoose**, with Joi validation and JWT auth for three roles: Admin, Claims Officer and Field Adjuster.
-- **10-state claim lifecycle** with role-guarded transitions and a full audit timeline for every status change.
-- **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
-- Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
-- Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
-- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel.
-
-<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the live dashboard" /></a>
-<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
-
-### Public repositories
-
-<div align="center">
-  <a href="https://github.com/hammoudFerwana/project-management-backend"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-project-management-backend.svg" width="49%" alt="project-management-backend" /></a>
-  <a href="https://github.com/hammoudFerwana/tour-booking-application"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-tour-booking-application.svg" width="49%" alt="tour-booking-application" /></a>
-  <a href="https://github.com/hammoudFerwana/subscription-tracker"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-subscription-tracker.svg" width="49%" alt="subscription-tracker" /></a>
-  <a href="https://github.com/hammoudFerwana/mohammed-ferwana-portfolio"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-mohammed-ferwana-portfolio.svg" width="49%" alt="mohammed-ferwana-portfolio" /></a>
-</div>
-
-### Client and private work
+<details>
+<summary><b>Client and private work</b>: PCED CMS · Learning Platform API</summary>
+<br/>
 
 | Project | What I built | Stack |
 | :--- | :--- | :--- |
 | **PCED CMS** | Backend for the bilingual (Arabic and English) website of the Palestinian Center for Environmental Development | Node.js, Express, MongoDB, ES Modules |
 | **Learning Platform API** | REST API for a learning platform, built on a layered architecture with dependency injection | Node.js, Express |
 
+</details>
+
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
 <!-- ===================== ACTIVITY ===================== -->
-## 📊 GitHub activity
+## GitHub activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/stats.svg" width="49%" alt="GitHub stats for hammoudFerwana" />
@@ -167,6 +174,6 @@ B2B platform for insurance companies. A claim moves from first report to field i
 
 **Let's build something reliable.** Reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [mohammedferwana2@gmail.com](mailto:mohammedferwana2@gmail.com).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:8B5CF6&height=120&section=footer&animation=twinkling" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" height="110" alt="" />
 
 </div>
