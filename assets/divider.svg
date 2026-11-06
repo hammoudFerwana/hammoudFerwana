@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="8" viewBox="0 0 1000 8" preserveAspectRatio="none" role="img" aria-label="divider">
+<defs>
+  <linearGradient id="base" x1="0" x2="1">
+    <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+    <stop offset="0.25" stop-color="#8B5CF6"/>
+    <stop offset="0.75" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" x2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="c"><rect x="0" y="3" width="1000" height="2"/></clipPath>
+</defs>
+<style>
+  .sweep { animation: sweep 4.5s ease-in-out infinite; }
+  @keyframes sweep { from { transform: translateX(-220px); } to { transform: translateX(1000px); } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+  @media (prefers-reduced-motion: reduce) { .sweep { opacity: 0; } }
+</style>
+<rect x="0" y="3" width="1000" height="2" fill="url(#base)"/>
+<g clip-path="url(#c)"><rect class="sweep" x="0" y="3" width="220" height="2" fill="url(#shine)"/></g>
+</svg>

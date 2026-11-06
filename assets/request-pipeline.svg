@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="268" viewBox="0 0 892 268" role="img" aria-labelledby="t d">
+<title id="t">Request lifecycle</title>
+<desc id="d">A request travels from the client through router, validation, auth, controller, service and repository layers to MongoDB, and a JSON response travels back.</desc>
+<defs>
+  <linearGradient id="pipe-border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5CF6"/>
+    <stop offset="0.5" stop-color="#30363D"/>
+    <stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="pipe-glow" cx="0.85" cy="0" r="0.7">
+    <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.18"/>
+    <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pipe-glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="pipe-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .ttl { font-size: 13px; fill: #8B949E; letter-spacing: 0.08em; }
+  .nm { font-size: 14px; font-weight: 600; fill: #E6EDF3; }
+  .sb { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace; font-size: 10.5px; fill: #8B949E; }
+  .lane { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace; font-size: 11px; }
+  .node { fill: #161B22; stroke: #30363D; stroke-width: 1.2; animation: pulse 7.0s ease-out infinite both; }
+  .flow { stroke: #8B5CF6; stroke-width: 2; stroke-dasharray: 3 3; animation: dash 0.8s linear infinite; }
+  .req { animation: req 7.0s cubic-bezier(.45,.05,.55,.95) infinite both; }
+  .resp { animation: resp 7.0s cubic-bezier(.45,.05,.55,.95) infinite both; }
+  .ok { animation: ok 7.0s ease-out infinite both; }
+  @keyframes dash { to { stroke-dashoffset: -6; } }
+  @keyframes pulse {
+    0% { stroke: #30363D; fill: #161B22; }
+    3% { stroke: #A78BFA; fill: #221A3A; }
+    14% { stroke: #30363D; fill: #161B22; }
+    100% { stroke: #30363D; fill: #161B22; }
+  }
+  @keyframes req {
+    0% { transform: translateX(0); opacity: 0; }
+    2% { opacity: 1; }
+    45.71% { transform: translateX(749.0px); opacity: 1; }
+    48.57% { transform: translateX(749.0px); opacity: 0; }
+    100% { transform: translateX(749.0px); opacity: 0; }
+  }
+  @keyframes resp {
+    0%, 51.43% { transform: translateX(0); opacity: 0; }
+    52.86% { opacity: 1; }
+    91.43% { transform: translateX(-749.0px); opacity: 1; }
+    94.29%, 100% { transform: translateX(-749.0px); opacity: 0; }
+  }
+  @keyframes ok {
+    0%, 90.00% { opacity: 0; }
+    93.57%, 96% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+  @media (prefers-reduced-motion: reduce) { .req, .resp { opacity: 0; } .ok { opacity: 1; } }
+</style>
+<rect x="1" y="1" width="890" height="266" rx="14" fill="#0D1117" stroke="url(#pipe-border)" stroke-width="1.5"/>
+<rect x="1" y="1" width="890" height="266" rx="14" fill="url(#pipe-glow)"/>
+<text x="26" y="38" class="ttl">ONE PATH FOR EVERY REQUEST</text>
+<text x="866" y="38" text-anchor="end" class="ttl" style="letter-spacing:0">modular layered architecture</text>
+<line class="flow" x1="125" y1="95.0" x2="138" y2="95.0"/><line class="flow" x1="232" y1="95.0" x2="245" y2="95.0"/><line class="flow" x1="339" y1="95.0" x2="352" y2="95.0"/><line class="flow" x1="446" y1="95.0" x2="459" y2="95.0"/><line class="flow" x1="553" y1="95.0" x2="566" y2="95.0"/><line class="flow" x1="660" y1="95.0" x2="673" y2="95.0"/><line class="flow" x1="767" y1="95.0" x2="780" y2="95.0"/>
+<g><rect class="node" x="32" y="64" width="92" height="62" rx="10" style="animation-delay:0.00s"/><text x="78.0" y="91" text-anchor="middle" class="nm">Client</text><text x="78.0" y="110" text-anchor="middle" class="sb">HTTPS · JSON</text></g><g><rect class="node" x="139" y="64" width="92" height="62" rx="10" style="animation-delay:0.46s"/><text x="185.0" y="91" text-anchor="middle" class="nm">Router</text><text x="185.0" y="110" text-anchor="middle" class="sb">rate limit</text></g><g><rect class="node" x="246" y="64" width="92" height="62" rx="10" style="animation-delay:0.91s"/><text x="292.0" y="91" text-anchor="middle" class="nm">Validate</text><text x="292.0" y="110" text-anchor="middle" class="sb">Joi schema</text></g><g><rect class="node" x="353" y="64" width="92" height="62" rx="10" style="animation-delay:1.37s"/><text x="399.0" y="91" text-anchor="middle" class="nm">Auth</text><text x="399.0" y="110" text-anchor="middle" class="sb">JWT · RBAC</text></g><g><rect class="node" x="460" y="64" width="92" height="62" rx="10" style="animation-delay:1.83s"/><text x="506.0" y="91" text-anchor="middle" class="nm">Controller</text><text x="506.0" y="110" text-anchor="middle" class="sb">asyncWrapper</text></g><g><rect class="node" x="567" y="64" width="92" height="62" rx="10" style="animation-delay:2.29s"/><text x="613.0" y="91" text-anchor="middle" class="nm">Service</text><text x="613.0" y="110" text-anchor="middle" class="sb">business rules</text></g><g><rect class="node" x="674" y="64" width="92" height="62" rx="10" style="animation-delay:2.74s"/><text x="720.0" y="91" text-anchor="middle" class="nm">Repository</text><text x="720.0" y="110" text-anchor="middle" class="sb">tenant-scoped</text></g><g><rect class="node" x="781" y="64" width="92" height="62" rx="10" style="animation-delay:3.20s"/><text x="827.0" y="91" text-anchor="middle" class="nm">MongoDB</text><text x="827.0" y="110" text-anchor="middle" class="sb">Atlas</text></g>
+<line x1="78.0" y1="163" x2="78.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="185.0" y1="163" x2="185.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="292.0" y1="163" x2="292.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="399.0" y1="163" x2="399.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="506.0" y1="163" x2="506.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="613.0" y1="163" x2="613.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="720.0" y1="163" x2="720.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/><line x1="827.0" y1="163" x2="827.0" y2="205" stroke="#30363D" stroke-dasharray="2 3"/>
+<line x1="78.0" y1="168" x2="827.0" y2="168" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="2"/>
+<line x1="78.0" y1="200" x2="827.0" y2="200" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="2"/>
+<text x="72.0" y="172" text-anchor="end" class="lane" fill="#A78BFA">req</text>
+<text x="72.0" y="204" text-anchor="end" class="lane" fill="#67E8F9">res</text>
+<g class="req">
+  <circle cx="78.0" cy="168" r="9" fill="#8B5CF6" filter="url(#pipe-blur)"/>
+  <circle cx="78.0" cy="168" r="5" fill="#C4B5FD"/>
+</g>
+<g class="resp">
+  <circle cx="827.0" cy="200" r="9" fill="#22D3EE" filter="url(#pipe-blur)"/>
+  <circle cx="827.0" cy="200" r="5" fill="#67E8F9"/>
+</g>
+<text x="26" y="244" class="lane ok"><tspan fill="#3FB950">200 OK</tspan><tspan fill="#8B949E">  { </tspan><tspan fill="#C4B5FD">success</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#C4B5FD">data</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#C4B5FD">error</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#C4B5FD">meta</tspan><tspan fill="#8B949E"> }</tspan></text>
+<text x="866" y="244" text-anchor="end" class="lane" fill="#8B949E">organizationId comes from the JWT, never from the client</text>
+</svg>

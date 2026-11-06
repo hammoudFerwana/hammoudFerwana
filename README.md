@@ -1,197 +1,172 @@
+<!-- ===================== HEADER ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0969da&height=260&section=header&text=Mohammed%20Ferwana&fontSize=52&fontAlignY=38&desc=Backend%20Software%20Engineer&descSize=20&descAlignY=58&theme=dark" width="100%" alt="Mohammed Ferwana Banner" />
 
-  <br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:22D3EE&height=230&section=header&text=Mohammed%20Ferwana&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20Engineer%20%C2%B7%20Node.js%20%C2%B7%20Express%20%C2%B7%20MongoDB%20%C2%B7%20PostgreSQL&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Mohammed Ferwana, Backend Engineer" />
 
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=620&height=42&lines=Backend+Software+Engineer;Node.js+%2F+Express+%2F+MongoDB+%2F+PostgreSQL;Building+InsurFlow+%E2%80%94+Multi-tenant+SaaS;Docker+%26+Automated+CI%2FCD+Pipelines" alt="Typing Tagline" />
-  </a>
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=720&height=48&lines=Backend+Engineer+from+Gaza%2C+Palestine;I+design+secure%2C+multi-tenant+REST+APIs;Sole+backend+engineer+on+Sawn%2C+a+claims+SaaS;Clean+layers+%C2%B7+RBAC+%C2%B7+state+machines+%C2%B7+tests" alt="Backend Engineer from Gaza, Palestine. I design secure, multi-tenant REST APIs." />
+</a>
 
-  <br/><br/>
+<br/>
 
-  <a href="https://www.linkedin.com/in/mohammed-ferwana/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/hammoudFerwana">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="mailto:ferwana.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+<a href="https://www.linkedin.com/in/mohammed-ferwana/"><img src="https://img.shields.io/badge/LinkedIn-mohammed--ferwana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
+<a href="mailto:ferwana.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ferwana.dev%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Sawn-Live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Sawn live dashboard" /></a>
+<img src="https://img.shields.io/badge/Based%20in-Gaza%2C%20Palestine-3FB950?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Based in Gaza, Palestine" />
+<img src="https://komarev.com/ghpvc/?username=hammoudFerwana&label=Profile%20views&color=8b5cf6&style=for-the-badge" alt="Profile views" />
+
 </div>
 
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
 
-### <img src="https://cdn.simpleicons.org/aboutdotme/38BDF8" width="18" height="18" />&nbsp; Overview
-
-- 🎓 **Academic Background:** Final-year Software Engineering student at **Al-Azhar University, Gaza**, specializing in backend systems architecture and distributed data layers.
-- 🚀 **Fellowship:** Backend Engineering Fellow @ **Masar Tech Bootcamp (Batch 2)**, advancing competencies in system design, relational modeling, and scalable APIs.
-- 🛠️ **Core Focus:** Multi-tenant SaaS architectures, RBAC/ABAC authorization layers, state machines, deterministic REST API design, and containerized deployments.
-- 🔄 **Engineering Workflow:** Trunk-compatible feature branch isolation, Conventional Commits, PR reviews, automated linting, and CI/CD test gates.
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
-
-### <img src="https://cdn.simpleicons.org/stackshare/38BDF8" width="18" height="18" />&nbsp; Tech Stack
-
-#### Languages & Core Runtime
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css&theme=dark" alt="Languages" />
-  </a>
-</p>
-
-#### Backend & Architecture
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,postman&theme=dark" alt="Backend" />
-  </a>
-</p>
-
-#### Databases & ORM / ODM
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,postgres,sequelize&theme=dark" alt="Databases" />
-  </a>
-</p>
-
-#### DevOps, Testing & Tooling
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,githubactions,jest,git,linux,bash&theme=dark" alt="DevOps and Tools" />
-  </a>
-</p>
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
-
-### <img src="https://cdn.simpleicons.org/gitbook/38BDF8" width="18" height="18" />&nbsp; Featured Projects
-
-#### 🏢 [InsurFlow — B2B SaaS Motor Insurance Claims Platform](https://github.com/InsurFlow-Team/insurflow-backend)
-> **Role:** Backend Architect & Team Lead  
-> **Problem & Solution:** Eliminates manual insurance claim settlement delays by orchestrating policy checks, multi-party assessment dispatching, and settlement lifecycles within an enterprise multi-tenant ecosystem.  
-> **Core Architecture:**
-> - Enforces tenant data isolation at the query layer (`tenantId`/`organizationId`).
-> - Implements a deterministic finite state machine (Draft → Submitted → Under Review → Approved → Settled) with role-based transitions.
-> - Structured 5-layer design (Route → Validator → Controller → Service → Model) backed by automated regression tests and CI/CD pipelines.  
-> **Stack:**  
-> [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-> [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-> [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://mongodb.com)
-> [![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white)](https://mongoosejs.com)
-> [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
-> [![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-
----
-
-#### ⏱️ [TeamFlow — Kanban & Time Tracking Backend for SMEs](https://github.com/hammoudFerwana)
-> **Role:** Backend Developer  
-> **Problem & Solution:** Solves productivity visibility and billable hour discrepancies for regional SMEs through localized project management and granular work session tracking.  
-> **Core Architecture:**
-> - Aggregation pipelines for member utilization rates, task throughput, and real-time project metrics.
-> - Granular access control for Team Admins, Project Managers, and Members.  
-> **Stack:**  
-> [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-> [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-> [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://mongodb.com)
-> [![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
-
----
-
-#### 🛒 Multi-Vendor E-Commerce Marketplace API
-> **Role:** Backend Developer  
-> **Problem & Solution:** Prevents stock collisions and simplifies vendor payouts across distributed merchant storefronts via transactional ordering workflows.  
-> **Core Architecture:**
-> - Relational schema modeling in PostgreSQL utilizing Sequelize ORM with foreign key constraints and transactional integrity.
-> - Isolated vendor product management, stock decrement locks, and order status lifecycle.  
-> **Stack:**  
-> [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-> [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://postgresql.org)
-> [![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)](https://sequelize.org)
-> [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-
----
-
-#### 📚 Learning Platform RESTful API
-> **Role:** Backend Developer  
-> **Problem & Solution:** Powers digital curriculum delivery, student enrollment verification, and learning metrics with optimized query latency.  
-> **Core Architecture:**
-> - Multi-role auth supporting Instructors, Students, and Admins.
-> - Deterministic query filtering, sorting, cursor pagination, and file attachment handling.  
-> **Stack:**  
-> [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-> [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-> [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://mongodb.com)
-> [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://postman.com)
-
----
-
-#### 🌿 Palestinian Center for Environmental Development (PCED) CMS Backend
-> **Role:** Backend Developer  
-> **Problem & Solution:** Powers public environmental data distribution, research paper dissemination, and multi-author editorial publishing.  
-> **Core Architecture:**
-> - Role-based content publication pipeline (Draft, Review, Published) with automated payload sanitization and asset handling.  
-> **Stack:**  
-> [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-> [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com)
-> [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://mongodb.com)
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
-
-### <img src="https://cdn.simpleicons.org/codereview/38BDF8" width="18" height="18" />&nbsp; Engineering Principles & Git Hygiene
-
-- **Layered Clean Architecture:** Strict decoupling between HTTP delivery, business logic services, data access layers, and validation schemas.
-- **Defensive API Design:** Stateless JWT auth, secure refresh token rotation, strict Joi/Zod request payload sanitization, and OWASP API security guidelines.
-- **Disciplined Version Control:** Feature branch isolation (`feat/`, `fix/`, `chore/`), Conventional Commits (`feat(claims): add audit trail logging`), pull request reviews, and issue linking.
-- **Contract-First APIs:** Clean, predictable response envelopes (`{ success, data, error, meta }`) with exact HTTP status codes and Postman documentation.
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
-
-### <img src="https://cdn.simpleicons.org/googleanalytics/38BDF8" width="18" height="18" />&nbsp; Activity & Metrics
+<!-- ===================== ABOUT ===================== -->
+## 👋 About me
 
 <div align="center">
-  <img src="https://github-profile-trophy-unserori.vercel.app/?username=hammoudFerwana&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="assets/terminal.svg" width="100%" alt="Terminal calling GET /api/v1/me and printing Mohammed's profile as JSON" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hammoudFerwana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Mohammed Ferwana GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hammoudFerwana&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
+I build the server side of products: APIs, data models, authentication and the business rules between them. My main stack is **Node.js, Express and MongoDB**, and I am adding **PostgreSQL** to my daily work. I study **Computer Systems Engineering at Al-Azhar University, Gaza** (class of 2027, CGPA 93.3).
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== EXPERIENCE ===================== -->
+## 🧭 Experience and programs
+
+| Where | Role | Highlights |
+| :--- | :--- | :--- |
+| **Sawn** (formerly InsurFlow) | Backend Engineer | Owns the full backend of a B2B claims SaaS. 4th place at Startup MVP Bootcamp. |
+| **TAQAT** · TeamLine | Backend Developer and Team Lead | 2026 |
+| **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
+| **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
+| **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
+| **Areisto Software** | Intern | Khireej Qader Program |
+| **IEEEXtreme 20.0** | Competitor | 24-hour global programming contest, October 2026 |
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== STACK ===================== -->
+## 🛠️ Tech stack
+
+<table>
+  <tr>
+    <td align="center" width="170"><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=js,ts,html,css&theme=dark" alt="JavaScript, TypeScript, HTML, CSS" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Node.js, Express" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td><img src="https://skillicons.dev/icons?i=mongodb,postgres,sequelize&theme=dark" alt="MongoDB, PostgreSQL, Sequelize" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>DevOps and testing</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,githubactions,jest,linux,bash&theme=dark" alt="Docker, GitHub Actions, Jest, Linux, Bash" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,postman,vscode,firebase,vercel&theme=dark" alt="Git, GitHub, Postman, VS Code, Firebase, Vercel" /></td>
+  </tr>
+</table>
+
+**Libraries and services I ship with**
+
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white)
+![Joi](https://img.shields.io/badge/Joi-validation-8B5CF6?style=flat-square&labelColor=0D1117)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-hashing-8B5CF6?style=flat-square&labelColor=0D1117)
+![Helmet](https://img.shields.io/badge/Helmet-security%20headers-8B5CF6?style=flat-square&labelColor=0D1117)
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
+![Firebase Cloud Messaging](https://img.shields.io/badge/Firebase%20Cloud%20Messaging-DD2C00?style=flat-square&logo=firebase&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=flat-square&logo=trello&logoColor=white)
+
+**AI-assisted workflow:** I plan and review with Claude and build with Google Antigravity. No change reaches `main` without a real diff and real test output.
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== HOW I BUILD ===================== -->
+## ⚙️ How I build APIs
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hammoudFerwana&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="assets/request-pipeline.svg" width="100%" alt="A request moves through router, Joi validation, JWT and RBAC auth, controller, service and repository layers to MongoDB, and a JSON envelope returns" />
+</div>
+
+- **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
+- **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
+- **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
+- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
+- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== FEATURED ===================== -->
+## 🚀 Featured work
+
+### Sawn · motor insurance claims SaaS
+
+B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
+
+<div align="center">
+  <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
+</div>
+
+- Multi-tenant REST API on **Node.js, Express 5, MongoDB and Mongoose**, with Joi validation and JWT auth for three roles: Admin, Claims Officer and Field Adjuster.
+- **10-state claim lifecycle** with role-guarded transitions and a full audit timeline for every status change.
+- **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
+- Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
+- Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
+- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel.
+
+<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the live dashboard" /></a>
+<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
+
+### Public repositories
+
+<div align="center">
+  <a href="https://github.com/hammoudFerwana/project-management-backend"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-project-management-backend.svg" width="49%" alt="project-management-backend" /></a>
+  <a href="https://github.com/hammoudFerwana/tour-booking-application"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-tour-booking-application.svg" width="49%" alt="tour-booking-application" /></a>
+  <a href="https://github.com/hammoudFerwana/subscription-tracker"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-subscription-tracker.svg" width="49%" alt="subscription-tracker" /></a>
+  <a href="https://github.com/hammoudFerwana/mohammed-ferwana-portfolio"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-mohammed-ferwana-portfolio.svg" width="49%" alt="mohammed-ferwana-portfolio" /></a>
+</div>
+
+### Client and private work
+
+| Project | What I built | Stack |
+| :--- | :--- | :--- |
+| **PCED CMS** | Backend for the bilingual (Arabic and English) website of the Palestinian Center for Environmental Development | Node.js, Express, MongoDB, ES Modules |
+| **Learning Platform API** | REST API for a learning platform, built on a layered architecture with dependency injection | Node.js, Express |
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== ACTIVITY ===================== -->
+## 📊 GitHub activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/stats.svg" width="49%" alt="GitHub stats for hammoudFerwana" />
+  <img src="https://streak-stats.demolab.com/?user=hammoudFerwana&background=0D1117&border=30363D&stroke=30363D&ring=8B5CF6&fire=22D3EE&currStreakNum=A78BFA&sideNums=E6EDF3&currStreakLabel=A78BFA&sideLabels=8B949E&dates=8B949E&border_radius=14" width="49%" alt="GitHub contribution streak" />
 </div>
 
 <br/>
 
-#### <img src="https://cdn.simpleicons.org/github/38BDF8" width="16" height="16" />&nbsp; Contribution Activity Graph
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-dark.svg" width="100%" alt="Snake eating the contribution graph" />
   </picture>
 </div>
 
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:38bdf8,100:0d1117&height=3&section=header" width="100%" />
-
-### <img src="https://cdn.simpleicons.org/minutemailer/38BDF8" width="18" height="18" />&nbsp; Connect With Me
-
-- **LinkedIn:** [linkedin.com/in/mohammed-ferwana](https://www.linkedin.com/in/mohammed-ferwana/)
-- **GitHub:** [github.com/hammoudFerwana](https://github.com/hammoudFerwana)
-- **Direct Email:** [ferwana.dev@gmail.com](mailto:ferwana.dev@gmail.com)
-
-<br/>
-
+<!-- ===================== FOOTER ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969da,50:161b22,100:0d1117&height=120&section=footer" width="100%" alt="Footer Banner" />
+
+**Let's build something reliable.** Reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [ferwana.dev@gmail.com](mailto:ferwana.dev@gmail.com).
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:8B5CF6&height=120&section=footer&animation=twinkling" width="100%" alt="" />
+
 </div>
