@@ -10,7 +10,7 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/mohammed-ferwana/"><img src="https://img.shields.io/badge/LinkedIn-mohammed--ferwana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
-<a href="mailto:ferwana.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ferwana.dev%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="mailto:mohammedferwana2@gmail.com"><img src="https://img.shields.io/badge/Email-mohammedferwana2%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
 <a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Sawn-Live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Sawn live dashboard" /></a>
 <img src="https://img.shields.io/badge/Based%20in-Gaza%2C%20Palestine-3FB950?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Based in Gaza, Palestine" />
 <img src="https://komarev.com/ghpvc/?username=hammoudFerwana&label=Profile%20views&color=8b5cf6&style=for-the-badge" alt="Profile views" />
@@ -165,7 +165,7 @@ B2B platform for insurance companies. A claim moves from first report to field i
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
 
-**Let's build something reliable.** Reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [ferwana.dev@gmail.com](mailto:ferwana.dev@gmail.com).
+**Let's build something reliable.** Reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [mohammedferwana2@gmail.com](mailto:mohammedferwana2@gmail.com).
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:8B5CF6&height=120&section=footer&animation=twinkling" width="100%" alt="" />
 
