@@ -13,6 +13,8 @@
 
 **Sole backend engineer on Sawn** · 387 automated tests · 10-state claim lifecycle · API live on Render
 
+<a href="mailto:mohammedferwana2@gmail.com?subject=Backend%20role%20or%20freelance%20API%20work"><img src="https://img.shields.io/badge/Open%20to-remote%20backend%20roles%20%C2%B7%20freelance%20API%20work-3FB950?style=for-the-badge&labelColor=0D1117" alt="Open to remote backend roles and freelance API work" /></a>
+
 </div>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
