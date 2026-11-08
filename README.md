@@ -7,10 +7,6 @@
 
 <img src="assets/typing.svg" alt="I design secure, multi-tenant REST APIs. Sole backend engineer on Sawn, a claims SaaS. Clean layers, RBAC, state machines, tests." />
 
-<a href="https://www.linkedin.com/in/mohammed-ferwana/"><img src="https://img.shields.io/badge/LinkedIn-mohammed--ferwana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn profile" /></a>
-<a href="mailto:mohammedferwana2@gmail.com"><img src="https://img.shields.io/badge/Email-mohammedferwana2%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email mohammedferwana2@gmail.com" /></a>
-<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Sawn-Live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Sawn live dashboard" /></a>
-
 **Sole backend engineer on Sawn** · 387 automated tests · 10-state claim lifecycle · API live on Render
 
 <a href="mailto:mohammedferwana2@gmail.com?subject=Backend%20role%20or%20freelance%20API%20work"><img src="https://img.shields.io/badge/Open%20to-remote%20backend%20roles%20%C2%B7%20freelance%20API%20work-3FB950?style=for-the-badge&labelColor=0D1117" alt="Open to remote backend roles and freelance API work" /></a>
@@ -29,42 +25,6 @@
 <br/>
 
 I build the server side of products: APIs, data models, authentication and the business rules between them. My main stack is **Node.js, Express and MongoDB**, and I am adding **PostgreSQL** to my daily work. I study **Computer Systems Engineering at Al-Azhar University, Gaza** (class of 2027, CGPA 93.3).
-
-<img src="assets/divider.svg" width="100%" height="8" alt="" />
-
-<!-- ===================== FEATURED ===================== -->
-## Featured work: Sawn
-
-**Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
-
-<div align="center">
-  <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
-</div>
-
-- Multi-tenant REST API on **Node.js, Express 5, MongoDB and Mongoose**, with Joi validation and JWT auth for three roles: Admin, Claims Officer and Field Adjuster.
-- **10-state claim lifecycle** with role-guarded transitions and a full audit timeline for every status change.
-- **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
-- Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
-- Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
-- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
-
-<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
-<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
-
-<img src="assets/divider.svg" width="100%" height="8" alt="" />
-
-<!-- ===================== HOW I BUILD ===================== -->
-## How I build APIs
-
-<div align="center">
-  <img src="assets/request-pipeline.svg" width="100%" alt="A request moves through router, Joi validation, JWT and RBAC auth, controller, service and repository layers to MongoDB, and a JSON envelope returns" />
-</div>
-
-- **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
-- **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
-- **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
-- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
-- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
@@ -111,15 +71,41 @@ I build the server side of products: APIs, data models, authentication and the b
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
-<!-- ===================== REPOSITORIES ===================== -->
-## Public repositories
+<!-- ===================== FEATURED ===================== -->
+## Featured work: Sawn
+
+**Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
 
 <div align="center">
-  <a href="https://github.com/hammoudFerwana/project-management-backend"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-project-management-backend.svg" width="49%" alt="project-management-backend repository" /></a>
-  <a href="https://github.com/hammoudFerwana/tour-booking-application"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-tour-booking-application.svg" width="49%" alt="tour-booking-application repository" /></a>
-  <a href="https://github.com/hammoudFerwana/subscription-tracker"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-subscription-tracker.svg" width="49%" alt="subscription-tracker repository" /></a>
-  <a href="https://github.com/hammoudFerwana/mohammed-ferwana-portfolio"><img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/pin-mohammed-ferwana-portfolio.svg" width="49%" alt="mohammed-ferwana-portfolio repository" /></a>
+  <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
 </div>
+
+- Multi-tenant REST API on **Node.js, Express 5, MongoDB and Mongoose**, with Joi validation and JWT auth for three roles: Admin, Claims Officer and Field Adjuster.
+- **10-state claim lifecycle** with role-guarded transitions and a full audit timeline for every status change.
+- **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
+- Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
+- Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
+- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
+
+<a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
+<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
+
+<!-- ===================== HOW I BUILD ===================== -->
+## How I build APIs
+
+<div align="center">
+  <img src="assets/request-pipeline.svg" width="100%" alt="A request moves through router, Joi validation, JWT and RBAC auth, controller, service and repository layers to MongoDB, and a JSON envelope returns" />
+</div>
+
+- **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
+- **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
+- **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
+- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
+- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
+
+<img src="assets/divider.svg" width="100%" height="8" alt="" />
 
 <!-- ===================== EXPERIENCE ===================== -->
 ## Experience and more work
@@ -152,24 +138,6 @@ I build the server side of products: APIs, data models, authentication and the b
 </details>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
-
-<!-- ===================== ACTIVITY ===================== -->
-## GitHub activity
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/stats.svg" width="49%" alt="GitHub stats for hammoudFerwana" />
-  <img src="https://streak-stats.demolab.com/?user=hammoudFerwana&background=0D1117&border=30363D&stroke=30363D&ring=8B5CF6&fire=22D3EE&currStreakNum=A78BFA&sideNums=E6EDF3&currStreakLabel=A78BFA&sideLabels=8B949E&dates=8B949E&border_radius=14" width="49%" alt="GitHub contribution streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-light.svg" />
-    <img src="https://raw.githubusercontent.com/hammoudFerwana/hammoudFerwana/output/snake-dark.svg" width="100%" alt="Snake eating the contribution graph" />
-  </picture>
-</div>
 
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
