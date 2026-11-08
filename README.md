@@ -68,7 +68,9 @@ I build the server side of products: APIs, data models, authentication and the b
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
 <!-- ===================== FEATURED ===================== -->
-## Featured work: Sawn
+## Featured work
+
+### Sawn
 
 **Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
 
@@ -85,6 +87,16 @@ I build the server side of products: APIs, data models, authentication and the b
 
 <a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
 <a href="https://github.com/InsurFlow-Team/insurflow-backend"><img src="https://img.shields.io/badge/Backend%20source%20code-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open the Sawn backend repository on GitHub" /></a>
+
+### TeamLine
+
+**Project management backend for small teams.** Built during the 144-hour TAQAT intensive training at Code Map. I was the backend developer and the team lead.
+
+- REST API on **Node.js, Express and MongoDB**, with JWT authentication and bcrypt password hashing.
+- Modules for workspaces, boards, tasks, time tracking, reports and a dashboard.
+- Feature-based layout: each module has its own routes, controller, service and model.
+
+<a href="https://github.com/Team-line/TeamLine-Backend"><img src="https://img.shields.io/badge/TeamLine%20backend%20source-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open the TeamLine backend repository on GitHub" /></a>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
@@ -110,7 +122,7 @@ I build the server side of products: APIs, data models, authentication and the b
 
 | Where | Role | Highlights |
 | :--- | :--- | :--- |
-| **TAQAT** · TeamLine | Backend Developer and Team Lead | 2026 |
+| **TAQAT** · TeamLine | Backend Developer and Team Lead | 144-hour intensive training at Code Map, 2026 |
 | **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
 | **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
 | **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
