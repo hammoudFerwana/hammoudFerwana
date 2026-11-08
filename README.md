@@ -7,10 +7,6 @@
 
 <img src="assets/typing.svg" alt="I design secure, multi-tenant REST APIs. Sole backend engineer on Sawn, a claims SaaS. Clean layers, RBAC, state machines, tests." />
 
-**Sole backend engineer on Sawn** · 387 automated tests · 10-state claim lifecycle · API live on Render
-
-<a href="mailto:mohammedferwana2@gmail.com?subject=Backend%20role%20or%20freelance%20API%20work"><img src="https://img.shields.io/badge/Open%20to-remote%20backend%20roles%20%C2%B7%20freelance%20API%20work-3FB950?style=for-the-badge&labelColor=0D1117" alt="Open to remote backend roles and freelance API work" /></a>
-
 </div>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
@@ -102,8 +98,6 @@ I build the server side of products: APIs, data models, authentication and the b
 - **Layered modules.** Each feature has its own route, validator, controller, service, repository and model.
 - **Multi-tenant by default.** `organizationId` comes from the JWT. Cross-tenant access returns `404`, so IDs leak nothing.
 - **Race-safe state changes.** One atomic `findOneAndUpdate` checks tenant, expected status and owner in the same query.
-- **Predictable contracts.** One response envelope `{ success, data, error, meta }`, camelCase everywhere, exact HTTP status codes.
-- **Proof before merge.** Automated tests per feature, feature branches, Conventional Commits and reviewed pull requests.
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
@@ -111,12 +105,11 @@ I build the server side of products: APIs, data models, authentication and the b
 ## Experience and more work
 
 <details>
-<summary><b>Experience and programs</b>: Sawn · TAQAT · SAIOS Academy · GSG · Masar Tech · Areisto Software · IEEEXtreme</summary>
+<summary><b>Experience and programs</b>: TAQAT · SAIOS Academy · GSG · Masar Tech · Areisto Software · IEEEXtreme</summary>
 <br/>
 
 | Where | Role | Highlights |
 | :--- | :--- | :--- |
-| **Sawn** (formerly InsurFlow) | Backend Engineer | Owns the full backend of a B2B claims SaaS. 4th place at Startup MVP Bootcamp. |
 | **TAQAT** · TeamLine | Backend Developer and Team Lead | 2026 |
 | **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
 | **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
