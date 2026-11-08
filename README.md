@@ -148,7 +148,7 @@ I build the server side of products: APIs, data models, authentication and the b
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
 
-**Let's build something reliable.** Reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [mohammedferwana2@gmail.com](mailto:mohammedferwana2@gmail.com).
+**Let's build something reliable.** See my [portfolio](https://mohammed-ferwana-portfolio.vercel.app/), or reach me on [LinkedIn](https://www.linkedin.com/in/mohammed-ferwana/) or at [mohammedferwana2@gmail.com](mailto:mohammedferwana2@gmail.com).
 
 <img src="assets/footer.svg" width="100%" height="110" alt="" />
 
