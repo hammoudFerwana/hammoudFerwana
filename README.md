@@ -117,7 +117,7 @@ I build the server side of products: APIs, data models, authentication and the b
 ## Experience and more work
 
 <details>
-<summary><b>Experience and programs</b>: TAQAT · SAIOS Academy · GSG · Masar Tech · Areisto Software · IEEEXtreme</summary>
+<summary><b>Experience and programs</b>: TAQAT · SAIOS Academy · GSG · Clinic Management System · Masar Tech · Areisto Software · IEEEXtreme</summary>
 <br/>
 
 | Where | Role | Highlights |
@@ -125,6 +125,7 @@ I build the server side of products: APIs, data models, authentication and the b
 | **TAQAT** · TeamLine | Backend Developer and Team Lead | 144-hour intensive training at Code Map, 2026 |
 | **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
 | **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
+| **Clinic Management System** | Team Lead | Led a team of 5 on a single-clinic MVP in 22 days. Backend on Node.js, Express and PostgreSQL. Frontend on React. |
 | **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
 | **Areisto Software** | Intern | Khireej Qader Program |
 | **IEEEXtreme 20.0** | Competitor | 24-hour global programming contest, October 2026 |
