@@ -84,7 +84,7 @@ I build the server side of products: APIs, data models, authentication and the b
 - **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
 
 <a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
-<img src="https://img.shields.io/badge/Backend%20source-private-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Backend source is private" />
+<a href="https://github.com/InsurFlow-Team/insurflow-backend"><img src="https://img.shields.io/badge/Backend%20source%20code-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open the Sawn backend repository on GitHub" /></a>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
 
