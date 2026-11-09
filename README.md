@@ -96,6 +96,7 @@ I build the server side of products: APIs, data models, authentication and the b
 - Modules for workspaces, boards, tasks, time tracking, reports and a dashboard.
 - Feature-based layout: each module has its own routes, controller, service and model.
 
+<a href="https://team-line-frontend-eight.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20app-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the TeamLine live app" /></a>
 <a href="https://github.com/Team-line/TeamLine-Backend"><img src="https://img.shields.io/badge/TeamLine%20backend%20source-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open the TeamLine backend repository on GitHub" /></a>
 
 <img src="assets/divider.svg" width="100%" height="8" alt="" />
