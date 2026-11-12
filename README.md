@@ -72,7 +72,7 @@ I build the server side of products: APIs, data models, authentication and the b
 
 ### Sawn
 
-**Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I own the backend: API design, data model, tests and deployment.
+**Motor insurance claims SaaS.** B2B platform for insurance companies. A claim moves from first report to field inspection, review and final decision across a web dashboard and a Flutter field app. I am a co-founder and the sole backend engineer: API design, data model, tests and deployment.
 
 <div align="center">
   <img src="assets/claim-lifecycle.svg" width="100%" alt="Sawn claim lifecycle state machine with 10 states" />
@@ -83,7 +83,7 @@ I build the server side of products: APIs, data models, authentication and the b
 - **Map-based dispatch:** adjusters ranked by distance to the accident, with a workload cap of 3 active claims. An officer override leaves an audit note.
 - Evidence photos and digital signatures on **Cloudinary**, push notifications through **Firebase Cloud Messaging**, PDF claim reports.
 - Public claim tracking link, coverage check at intake, loss assessment with deductible rules.
-- **387 automated tests across 27 suites.** API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
+- **1248 automated tests across 63 suites** (full run, 11 Nov 2026). API deployed on Render, dashboard on Vercel. 4th place at Startup MVP Bootcamp.
 
 <a href="https://insurflow-dashboard.vercel.app/"><img src="https://img.shields.io/badge/Open%20the%20live%20dashboard-22D3EE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Open the Sawn live dashboard" /></a>
 <a href="https://github.com/InsurFlow-Team/insurflow-backend"><img src="https://img.shields.io/badge/Backend%20source%20code-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Open the Sawn backend repository on GitHub" /></a>
@@ -127,8 +127,8 @@ I build the server side of products: APIs, data models, authentication and the b
 | **SAIOS Academy** · SAIOS Technology | Backend Developer | Authentication audit and role-based access review on an LMS backend. |
 | **GSG** · Market Ready Developer Program | Team Lead | Resume parsing and profile sync project with Simera. |
 | **Clinic Management System** | Team Lead | Led a team of 5 on a single-clinic MVP in 22 days. Backend on Node.js, Express and PostgreSQL. Frontend on React. |
-| **Masar Tech** | Backend Engineering Bootcamp | Batch 2 |
-| **Areisto Software** | Intern | Khireej Qader Program |
+| **Masar Tech** | Assistant Trainer | Startup MVP Bootcamp 2, starting Nov 2026 |
+| **Areisto Software** | Backend Developer Trainee | Khireej Qader Program |
 | **IEEEXtreme 20.0** | Competitor | 24-hour global programming contest, October 2026 |
 
 </details>
